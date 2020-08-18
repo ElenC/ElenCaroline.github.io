@@ -9,7 +9,6 @@ main{
     
 }
 #container{
-    
     margin: 50px;
     padding: 40px;
     float: left;
@@ -45,14 +44,14 @@ h1{
     font-weight: lighter;
 }
 
-#detalhe{
+.detalhe{
     text-decoration: none;
     color: rgb(133, 108, 153);
     font-family:  'Poppins', sans-serif;
     font-weight: unset;
     position: relative;
 }
-#detalhe::after{
+.detalhe::after{
     content: '';
     position: absolute;
     width: 0;
@@ -61,7 +60,7 @@ h1{
     bottom: 0;
     left: 0;
 }
-#detalhe::before{
+.detalhe::before{
     content: '';
     position: absolute;
     width:0;
@@ -69,11 +68,11 @@ h1{
     background-color:rgb(133, 108, 153) ;
     left: 0;
 }
-#detalhe:hover::after{
+.detalhe:hover::after{
     width: 100%;
     transition:width 0.4s ease-in-out;
 }
-#detalhe:hover::before{
+.detalhe:hover::before{
     width: 100%;
     transition:width 0.5s ease-in-out;
 }
