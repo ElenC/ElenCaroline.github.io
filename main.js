@@ -15,6 +15,6 @@
                 ".png'></div><div id='html'><a href='"+ cont[i].html_url + "'target='_blank'><input type='button'id='button' value='ACESSAR'></a></div><div><a id='detalhe' href='detalhes.html'>Mais Detalhes</div></div>"
             }
         }
-      
+      localStorage.setItem('main')
     }
     acesso.send()
